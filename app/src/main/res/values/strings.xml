@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">MiRecetario</string>
+    <string name="logo">Logo of the chef\'s hat app and My recipes, cooking madness</string>
+    <string name="user">Enter user</string>
+    <string name="password">Enter password</string>
+    <string name="newUser">Are you a new user?</string>
+    <string name="enter">Enter</string>
+    <string name="new_user">NEW USER REGISTRATION</string>
+    <string name="email">ENTER YOUR E-MAIL:</string>
+    <string name="mail">enter e-mail</string>
+    <string name="user_reg">ENTER YOUR NAME:</string>
+    <string name="password_reg">ENTER YOUR PASSWORD</string>
+    <string name="buscar">Button to search for recipes.</string>
+    <string name="menu">You are in the menu</string>
+    <string name="desayuno">Photo of a breakfast</string>
+    <string name="primer_plato">Photo of a first course</string>
+    <string name="entrantes">Photo of a appetizers</string>
+    <string name="postres">Photo of a Dessert</string>
+    <string name="plato_principal">Photo of a main course</string>
+    <string name="cena_ligera">Photo of a Light dinner</string>
+    <string name="add_menu">enter recipe</string>
+    <string name="delete">delete recipe</string>
+    <string name="pbusqueda">FIND ME...</string>
+    <string-array name="tipos_array">
+        <item>Desayunos</item>
+        <item>Entrantes</item>
+        <item>Ensaladas</item>
+        <item>Primer plato</item>
+        <item>Plato principal</item>
+        <item>Postres</item>
+        <item>Cena ligera</item>
+    </string-array>
+</resources>

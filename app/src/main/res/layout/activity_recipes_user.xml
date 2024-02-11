@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RecipesUser"
+    android:background="@color/logo2">
+
+    <androidx.viewpager.widget.ViewPager
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:id="@+id/viewPager"
+        android:contentDescription="fotografías de comida"
+        />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="35dp"
+        app:layout_constraintTop_toBottomOf="@+id/viewPager"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:src="@drawable/menu"
+        android:id="@+id/btnmenu"
+        android:contentDescription="@string/menu"
+        />
+    <ImageButton
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        app:layout_constraintTop_toBottomOf="@+id/btnmenu"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:id="@+id/btnsearch"
+        android:src="@drawable/buscar"
+        android:layout_marginTop="50dp"
+        android:contentDescription="@string/buscar"
+        />
+    <ImageButton
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        app:layout_constraintTop_toBottomOf="@+id/btnsearch"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:id="@+id/btnadd"
+        android:src="@drawable/add_menu"
+        android:layout_marginTop="30dp"
+        android:contentDescription="@string/add_menu"
+        />
+    <ImageButton
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        app:layout_constraintTop_toBottomOf="@+id/btnadd"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:id="@+id/btnscape"
+        android:src="@drawable/salir"
+        android:layout_marginTop="100dp"
+        android:contentDescription="@string/delete"
+        />
+</androidx.constraintlayout.widget.ConstraintLayout>
